@@ -1,0 +1,29 @@
+body{
+	background: indianred;
+}
+
+h1{
+	color:  palegreen; <!--no reconoce esta variable h1 porq predomina el cuerpo del archivo-->
+	text-align: center;
+}
+
+p{
+	color: white; <!--color texto-->
+	margin: 10000px;  <!--margen texto-->
+	margin-top: 100px; 
+	margin-right: 500px; 
+
+}
+#uno{ <!--un parrafo en concreto-->
+	color: black; 
+	border: 5px double darkblue; <!--soid solido-->
+
+}
+
+.parrafodos{
+	font-family: "verdana" ;
+}
+#caja a{
+	color : blue;
+	text-decoration: none;
+}

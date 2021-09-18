@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body bgcolor= "green" text ="white">
+	<from action="contactenos.html" method="POST"> <!--action permite mandar todo el formulario a esta pagina y el post las manda en secreto-->
+		<p>
+			<label>Nombres:</label>
+			<input type="text" name="nombre" size="20" maxleangth="20"> <!--maxleangth permite limitar el numero de caracteres-->
+			<label>Apellidos:</label>
+			<input type="text" name="apellido" size="20">
+	    </p>
+	    <p>
+			<label>Desea que le enviemos informacion?</label>
+			<input type="radio" name="info" value="si"checked>Si <!--checked permite dejar uno de los dos seleccionado desde el principio-->
+			<input type="radio" name="info" value="no">No
+	    </p>
+	    <p>
+			<label>¿Que Sistemas Operativos Utiliza?</label>
+			<input type="checkbox" name="winXp" value="winXp">Windows Xp
+			<input type="checkbox" name="win7" value="win7">Windows 7
+			<input type="checkbox" name="win10" value="win10">Windows 10
+	    </p>
+	    <p>
+			<label>Seleccione su facultad</label>
+			<select name="facultades">
+				<option value="1">Electronica</option>
+				<option value="2">Administacion</option>
+				<option value="3">Contaduria</option>
+				<option value="4">Ingenieria</option>
+				<option value="5">Diseño</option>
+				<option value="6">Artes</option>
+			</select>
+	    </p>
+	    <p>
+			<label>Contraseña:</label>
+			<input type="password" name="pass" size="20">
+	    </p>
+	    <p>
+			<label>Mensaje Adicional:</label>
+			<br>
+			<textarea name="mensaje" rows="5" cols="20"></textarea>
+	    </p>
+	    <p>
+			<input type="submit" value="Aceptar">
+			<input type="reset" value="Limpiar">
+	    </p>
+    </from>
+</body>
+</html>
